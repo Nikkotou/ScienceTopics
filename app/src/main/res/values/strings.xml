@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">ScienceTopics</string>
+    <string name="player_name_email_toast_error_message">You dont insert a name or an email!</string>
+    <string name="title">How much do you know about science topics?</string>
+    <string name="player_name_editText">Enter your Name</string>
+    <string name="player_email_editText">Enter your Email</string>
+    <string name="start_quiz_button">Start Quiz</string>
+
+    //questions
+    <string name="question1">Question 1</string>
+    <string name="question2">Question 2</string>
+    <string name="question3">Question 3</string>
+    <string name="question4">Question 4</string>
+    <string name="question5">Question 5</string>
+    <string name="question6">Question 6</string>
+    <string name="question7">Question 7</string>
+    <string name="question8">Question 8</string>
+    <string name="question9">Question 9</string>
+    <string name="question10">Question 10</string>
+    <string name="question11">Question 11</string>
+    <string name="question12">Question 12</string>
+
+    //Question body
+    <string name="questionBody1">The picture shows an oblect in space that has an icy core with a tail of gas and dust that extends millions of miles.\nWhat is this?</string>
+    <string name="questionBody2">Which kind of waves are used to make and receive cellphone calls?</string>
+    <string name="questionBody3">This picture shows three layers of the Earth. Which layer is the hottest?</string>
+    <string name="questionBody4">Which of these is the main way that ocean tides are created?</string>
+    <string name="questionBody5">What does a light-year measure?</string>
+    <string name="questionBody6">Denver, Colorado, is at a higher altitude than Los Angeles, California. Which of these statements is correct?</string>
+    <string name="questionBody7">Which of these pictures best illustrates what happens when light passes through a magnifying glass?</string>
+    <string name="questionBody8">The loudness of a sound is determined by what property of a sound wave?</string>
+    <string name="questionBody9">Which of the following statements best describes the data in the graph below?</string>
+    <string name="questionBody10">Which of these elements is needed to make nuclear energy and nuclear weapons?</string>
+    <string name="questionBody11">Which of these people developed the polio vaccine?</string>
+    <string name="questionBody12">Which of these terms is defined as the study of how the positions of stars and planets can influence human behavior?</string>
+</resources>

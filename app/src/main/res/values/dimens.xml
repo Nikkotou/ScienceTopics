@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="viewsPadding">16dp</dimen>
+    <dimen name="topBootomPadding">25dp</dimen>
+    <dimen name="viewCardRadius">6dp</dimen>
+    <dimen name="questionTextSize">20sp</dimen>
+    <dimen name="questionBodyTextSize">16sp</dimen>
+
+</resources>

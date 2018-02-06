@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    // Parent LinearLayout
+    <style name="parentLinearLayout" >
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:orientation">vertical</item>
+    <item name="android:padding">@dimen/viewsPadding</item>
+    <item name="android:background">@drawable/green</item>
+    </style>
+
+    // cardView style
+    <style name="cardViewStyle" parent="CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/viewsPadding</item>
+        <item name="cardBackgroundColor">@color/cardViewBackgroud</item>
+        <item name="cardCornerRadius">@dimen/viewCardRadius</item>
+    </style>
+
+    // cardview linearLayout for questions
+    <style name="cardViewLinearLayout" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/viewsPadding</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    // questions text style
+    <style name="questionTextViewStyle" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/questionTextSize</item>
+        <item name="android:textColor">@color/questionText</item>
+    </style>
+
+    // question images style
+    <style name="questionImageViewStyle" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/viewsPadding</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    // question body textview
+    <style name="questionBodyTextViewStyle" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/viewsPadding</item>
+        <item name="android:textSize">@dimen/questionBodyTextSize</item>
+        <item name="android:textColor">@color/questionBodyText</item>
+    </style>
+</resources>

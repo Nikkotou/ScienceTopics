@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A1887F"
+    tools:context="com.example.nikos.sciencetopics.QuizActivity">
+
+    <LinearLayout
+        style="@style/parentLinearLayout">
+
+        <!-- 1rst question cardView -->
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view1"
+            style="@style/cardViewStyle">
+
+            <LinearLayout
+                style="@style/cardViewLinearLayout">
+
+                <TextView
+                    android:id="@+id/question1_textview"
+                    style="@style/questionTextViewStyle"
+                    android:text="@string/question1" />
+
+                <ImageView
+                    style="@style/questionImageViewStyle"
+                    android:src="@drawable/imagequestion1" />
+
+                <TextView
+                    android:id="@+id/question1text_textview"
+                    style="@style/questionBodyTextViewStyle"
+                    android:text="@string/questionBody1"/>
+
+                <RadioGroup
+                    android:id="@+id/question1_radioGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/question1_radioButton1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:checked="false"
+                            android:text="A star" />
+
+                        <RadioButton
+                            android:id="@+id/question1_radioButton2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:checked="false"
+                            android:text="A comet" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/question1_radioButton3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:checked="false"
+                            android:text="An asteroid" />
+
+                        <RadioButton
+                            android:id="@+id/question1_radioButton4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:checked="false"
+                            android:text="A moon" />
+
+                    </LinearLayout>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- 2nd question cardView -->
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view2"
+            style="@style/cardViewStyle">
+
+            <LinearLayout
+                style="@style/cardViewLinearLayout">
+
+                <TextView
+                    android:id="@+id/question2_textview"
+                    style="@style/questionTextViewStyle"
+                    android:text="@string/question2" />
+
+                <TextView
+                    android:id="@+id/question2text_textview"
+                    style="@style/questionBodyTextViewStyle"
+                    android:text="@string/questionBody2"/>
+
+                <RadioGroup
+                    android:id="@+id/question2_radioGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/question2_radioButton1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Radio waves" />
+
+                        <RadioButton
+                            android:id="@+id/question2_radioButton2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Visible light waves" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/question2_radioButton3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Sound waves" />
+
+                        <RadioButton
+                            android:id="@+id/question2_radioButton4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Gravity waves" />
+
+                    </LinearLayout>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- 3rd question cardView -->
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view3"
+            style="@style/cardViewStyle">
+
+            <LinearLayout
+                style="@style/cardViewLinearLayout">
+
+                <TextView
+                    android:id="@+id/question3_textview"
+                    style="@style/questionTextViewStyle"
+                    android:text="@string/question3" />
+
+                <ImageView
+                    style="@style/questionImageViewStyle"
+                    android:src="@drawable/imagequestion3" />
+
+                <TextView
+                    android:id="@+id/question3text_textview"
+                    style="@style/questionBodyTextViewStyle"
+                    android:text="@string/questionBody3"/>
+
+                <EditText
+                    android:id="@+id/question3_editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:hint="Write the layer"
+                    android:inputType="text" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- 4rth question cardView -->
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view4"
+            style="@style/cardViewStyle">
+
+            <LinearLayout
+                style="@style/cardViewLinearLayout">
+
+                <TextView
+                    android:id="@+id/question4_textview"
+                    style="@style/questionTextViewStyle"
+                    android:text="@string/question4" />
+
+                <TextView
+                    android:id="@+id/question4text_textview"
+                    style="@style/questionBodyTextViewStyle"
+                    android:text="@string/questionBody4"/>
+
+                <RadioGroup
+                    android:id="@+id/question4_radioGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/question4_radioButton1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:layout_weight="1"
+                            android:text="The rotation of the Earth on its axis" />
+
+                        <RadioButton
+                            android:id="@+id/question4_radioButton2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:layout_weight="1"
+                            android:text="The gravitational pull of the moon" />
+
+                        <RadioButton
+                            android:id="@+id/question4_radioButton3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:layout_weight="1"
+                            android:text="The gravitational pull of the sun" />
+
+                    </LinearLayout>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- 5th question cardView -->
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view5"
+            style="@style/cardViewStyle">
+
+            <LinearLayout
+                style="@style/cardViewLinearLayout">
+
+                <TextView
+                    android:id="@+id/question5_textview"
+                    style="@style/questionTextViewStyle"
+                    android:text="@string/question5" />
+
+                <TextView
+                    android:id="@+id/question5text_textview"
+                    style="@style/questionBodyTextViewStyle"
+                    android:text="@string/questionBody5"/>
+
+                <RadioGroup
+                    android:id="@+id/question5_radioGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/question5_radioButton1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Brightness" />
+
+                        <RadioButton
+                            android:id="@+id/question5_radioButton2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Time" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/question5_radioButton3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Distance" />
+
+                        <RadioButton
+                            android:id="@+id/question5_radioButton4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Weight" />
+
+                    </LinearLayout>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- 6th question cardView -->
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view6"
+            style="@style/cardViewStyle">
+
+            <LinearLayout
+                style="@style/cardViewLinearLayout">
+
+                <TextView
+                    android:id="@+id/question6_textview"
+                    style="@style/questionTextViewStyle"
+                    android:text="@string/question6" />
+
+                <TextView
+                    android:id="@+id/question6text_textview"
+                    style="@style/questionBodyTextViewStyle"
+                    android:text="@string/questionBody6"/>
+
+                <RadioGroup
+                    android:id="@+id/question6_radioGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/question6_radioButton1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:layout_weight="1"
+                            android:text="Water boils at a lower temperature in Denver than Los Angeles" />
+
+                        <RadioButton
+                            android:id="@+id/question6_radioButton2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:layout_weight="1"
+                            android:text="Water boils at a higher temperature in Denver than Los Angeles" />
+
+                        <RadioButton
+                            android:id="@+id/question6_radioButton3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:layout_weight="1"
+                            android:text="Water boils at the same temperature in Denver and Los Angeles" />
+
+                    </LinearLayout>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- 7th question cardView -->
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view7"
+            style="@style/cardViewStyle">
+
+            <LinearLayout
+                style="@style/cardViewLinearLayout">
+
+                <TextView
+                    android:id="@+id/question7_textview"
+                    style="@style/questionTextViewStyle"
+                    android:text="@string/question7" />
+
+                <ImageView
+                    style="@style/questionImageViewStyle"
+                    android:src="@drawable/imagequestion7" />
+
+                <TextView
+                    android:id="@+id/question7text_textview"
+                    style="@style/questionBodyTextViewStyle"
+                    android:text="@string/questionBody7"/>
+
+                <RadioGroup
+                    android:id="@+id/question7_radioGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp">
+
+                        <RadioButton
+                            android:id="@+id/question7_radioButton1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="1" />
+
+                        <RadioButton
+                            android:id="@+id/question7_radioButton2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="2" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp">
+
+                        <RadioButton
+                            android:id="@+id/question7_radioButton3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="3" />
+
+                        <RadioButton
+                            android:id="@+id/question7_radioButton4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="4" />
+
+                    </LinearLayout>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- 8th question cardView -->
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view8"
+            style="@style/cardViewStyle">
+
+            <LinearLayout
+                style="@style/cardViewLinearLayout">
+
+                <TextView
+                    android:id="@+id/question8_textview"
+                    style="@style/questionTextViewStyle"
+                    android:text="@string/question8" />
+
+                <TextView
+                    android:id="@+id/question8text_textview"
+                    style="@style/questionBodyTextViewStyle"
+                    android:text="@string/questionBody8"/>
+
+                <RadioGroup
+                    android:id="@+id/question8_radioGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/question8_radioButton1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="Frequency" />
+
+                    <RadioButton
+                        android:id="@+id/question8_radioButton2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="Wavelength" />
+
+
+                    <RadioButton
+                        android:id="@+id/question8_radioButton3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="Velocity or rate of change" />
+
+                    <RadioButton
+                        android:id="@+id/question8_radioButton4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="Amplitude or height" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- 9th question cardView -->
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view9"
+            style="@style/cardViewStyle">
+
+            <LinearLayout
+                style="@style/cardViewLinearLayout">
+
+                <TextView
+                    android:id="@+id/question9_textview"
+                    style="@style/questionTextViewStyle"
+                    android:text="@string/question9" />
+
+                <ImageView
+                    style="@style/questionImageViewStyle"
+                    android:src="@drawable/imagequestion9" />
+
+                <TextView
+                    android:id="@+id/question9text_textview"
+                    style="@style/questionBodyTextViewStyle"
+                    android:text="@string/questionBody9"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/question9_checkBox1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1"
+                        android:text="In recent years, the rate of cavities has increased in many countries" />
+
+                    <CheckBox
+                        android:id="@+id/question9_checkBox2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1"
+                        android:text="In some countries, people brush their teeth more frequently than in other countries" />
+
+                    <CheckBox
+                        android:id="@+id/question9_checkBox3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1"
+                        android:text="The more sugar people eat, the more likely they are to get cavities" />
+
+                    <CheckBox
+                        android:id="@+id/question9_checkBox4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1"
+                        android:text="In recent years, the consumption of sugar has increased in many countries" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- 10th question cardView -->
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view10"
+            style="@style/cardViewStyle">
+
+            <LinearLayout
+                style="@style/cardViewLinearLayout">
+
+                <TextView
+                    android:id="@+id/question10_textview"
+                    style="@style/questionTextViewStyle"
+                    android:text="@string/question10" />
+
+                <TextView
+                    android:id="@+id/question10text_textview"
+                    style="@style/questionBodyTextViewStyle"
+                    android:text="@string/questionBody10"/>
+
+                <RadioGroup
+                    android:id="@+id/question10_radioGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/question10_radioButton1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Sodium Chloride" />
+
+                        <RadioButton
+                            android:id="@+id/question10_radioButton2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Uranium" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/question10_radioButton3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Nitrogen" />
+
+                        <RadioButton
+                            android:id="@+id/question10_radioButton4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Carbon dioxide" />
+
+                    </LinearLayout>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- 11th question cardView -->
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view11"
+            style="@style/cardViewStyle">
+
+            <LinearLayout
+                style="@style/cardViewLinearLayout">
+
+                <TextView
+                    android:id="@+id/question11_textview"
+                    style="@style/questionTextViewStyle"
+                    android:text="@string/question11" />
+
+                <ImageView
+                    style="@style/questionImageViewStyle"
+                    android:src="@drawable/imagequestion11" />
+
+                <TextView
+                    android:id="@+id/question11text_textview"
+                    style="@style/questionBodyTextViewStyle"
+                    android:text="@string/questionBody11"/>
+                <EditText
+                    android:id="@+id/question11_editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:hint="Write the nname"
+                    android:inputType="text" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- 12th question cardView -->
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view12"
+            style="@style/cardViewStyle">
+
+            <LinearLayout
+                style="@style/cardViewLinearLayout">
+
+                <TextView
+                    android:id="@+id/question12_textview"
+                    style="@style/questionTextViewStyle"
+                    android:text="@string/question12" />
+
+                <TextView
+                    android:id="@+id/question12text_textview"
+                    style="@style/questionBodyTextViewStyle"
+                    android:text="@string/questionBody12"/>
+
+                <RadioGroup
+                    android:id="@+id/question12_radioGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/question12_radioButton1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="AStrology" />
+
+                        <RadioButton
+                            android:id="@+id/question12_radioButton2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Alchemy" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/question12_radioButton3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Astronomy" />
+
+                        <RadioButton
+                            android:id="@+id/question12_radioButton4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Meteorology" />
+
+                    </LinearLayout>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:onClick="openResultActivity"
+            android:text="Submit" />
+
+    </LinearLayout>
+
+</ScrollView>
